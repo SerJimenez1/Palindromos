@@ -6,7 +6,7 @@
     def palindromo(oracion):
 
 # Antes de ponerle un valor a la funcion use el replace para poder eliminar los espacios    
-    
+
     oracion = oracion.replace(" ","")
 
 # Para definir la funcion use el bucle if para condicionar si era verdadero o falso he ingrese un texto
@@ -17,14 +17,16 @@
       print("La oración no es un palíndromo")}
 
 # Cree otra funcion para que aparezca un error si es escribia alguna clase de numero 
-  
+    ``` 
+    >>> 
+    ```  
     def ingresar_oracion():  
     while True:
         error = False
         oracion = input("Escriba una oración: ")
         for letra in oracion:
 # El comando isdigit se usa para identificar si algun valor es un numero
-           
+         
     if letra.isdigit() == True:
                 print("Ingrese una oración que no contenga números")
                 error = True
@@ -35,7 +37,9 @@
     return oracion
   
 # Por ultimo cree otra funcion que funcione como un menu y pueda ser mas entendible al momento de la ejecucion 
-      
+    ``` 
+    >>> 
+    ```    
     def menu():
     while True:
         oracion = ingresar_oracion()
@@ -43,7 +47,7 @@
         while True:
             opc = input("¿Desea ingresar otra oración? si/no: ")
 # El comando != funciona para indicar si es diferente a otro valor  
-       
+          
     if opc != "si" and opc != "no":
                 print("Ingrese alguna de las opciones")
                 continue
@@ -52,7 +56,8 @@
             else:
                 print("¡Hasta luego!")
 # Para finalizar el quit para que cierre el programa
-              
+             
     quit()
 
     menu()
+
