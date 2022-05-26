@@ -3,10 +3,9 @@
 
 # Los palindromos son palabras o frases que se leen igual en un sentido que en otro.
    
-    def palindromo(oracion):
 
 # Antes de ponerle un valor a la funcion use el replace para poder eliminar los espacios    
-
+    def palindromo(oracion): 
     oracion = oracion.replace(" ","")
 
 # Para definir la funcion use el bucle if para condicionar si era verdadero o falso he ingrese un texto
