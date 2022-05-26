@@ -1,5 +1,5 @@
 ## IDENTIFICAR SI ES UN PALINDROMO ##
-# El programa esta compuesto por una funcion que me permite identificar si la oracion introducida es un palindromo
+# El programa esta compuesto por varias funciones que permite identificar si la oracion introducida es un palindromo
 
 # Los palindromos son palabras o frases que se leen igual en un sentido que en otro.
    
